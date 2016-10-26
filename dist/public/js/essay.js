@@ -1,0 +1,1 @@
+define(function(require,exports,module){exports.showFond=function(){var t=$(".myLove"),e=$(".myLove b"),n=null;t.attr("data-disabled",!1);var o=!1;t.on("click",function(){if(clearTimeout(n),o)return!1;console.log(o);var a=$(this);return e.text(parseInt(e.text())+1),a.attr("data-disabled",!0),o=!0,n=setTimeout(function(){t.css("color","#999")},1e3),!1})}});

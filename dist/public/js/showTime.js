@@ -1,0 +1,1 @@
+define(function(require,exports,module){exports.currTime=function(e){function t(e){return e<10&&(e="0"+e),e}e!=Number&&(e=parseInt(e));var n=new Date(e),r=n.getFullYear(),u=n.getMonth()+1,a=n.getDate(),g=n.getHours(),i=n.getMinutes(),o=n.getSeconds();t(i),t(o);var c=r+"-"+u+"-"+a+" "+g+":"+i+":"+o;return c}});

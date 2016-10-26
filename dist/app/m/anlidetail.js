@@ -1,0 +1,1 @@
+define(function(require,exports,module){var n=require("data");exports.getarticle=function(a){var e="../public/json/anli.json";n.query(e,function(n){a(200===n.errCode?n.data:[])},1e3)}});

@@ -1,0 +1,51 @@
+<script type="text/template" export="essay">
+    {{ if(!it.article){ }}
+      <h1>文章不存在！</h1>
+    {{ }else{ }}
+	<header>
+		<h1>{{=it.article.title}}</h1>
+		
+		{{ if(it.article.sub_title){ }}
+		<h3>{{=it.article.sub_title}}</h3>
+		{{ } }}
+		
+		{{ if(it.article.user_name){ }}
+		<div class="personal_mes">
+			<a href="javascript:;" class="author" data-user-id="{{=it.article.user_id}}">{{=it.article.user_name}}	</a>
+			<span>&nbsp;·&nbsp;</span>
+			<time class="timeago" datetime="{{=it.time}}"></time>
+		</div>
+		{{ } }}
+	</header>
+	
+	{{ if(it.article.theme_img){ }}
+	<div class="theme_img">
+		<img src="/public/images/train.jpg"/>
+	</div>
+	{{ } }}
+	
+	<div class="essay">
+		{{=it.article.content}}	
+	</div>
+	<div class="stuff">
+		<ul>
+		    <li>
+				<div id="myLove" class="myLove" data-disabled="">
+					<span>&#xe608;</span>
+					喜欢（<b>55</b>）
+				</div>								
+			</li>
+			
+			<li>
+				<span>&#xf006e;</span>
+				评论（38）
+			</li>
+
+			<li>
+				<span>&#xe603;</span>
+				阅读（10036）
+			</li>
+		</ul>
+	</div>
+	{{ } }}
+</script>

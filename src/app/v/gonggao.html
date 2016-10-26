@@ -1,0 +1,40 @@
+<script export="gonggao" type="text/template">
+	<div class="bordered">
+		<div class="container-fluid">
+			<div class="row"> 
+				<div class=" col-md-2">
+					<div class="laba"> 
+						<i class="icon iconfont">&#xe605;</i>
+					</div> 
+					<div class="homyi">宏奕动态</div>
+				</div>
+				<div class=" col-md-8 col-md-offset-1">
+					<div id="gdong">
+						<!-- <marquee direction="up" bgcolor="yellow"; height="37"; onmouseover="this.stop()" onmouseout="this.start()"> -->
+							<ul id="con1">
+							{{ it.aa.forEach(function(item){ }}
+							<li>{{=item.title}}</li>
+							{{ }); }}
+							<!-- <li><a href="">宏奕工作室招新啦!2</a></li>
+							<li><a href="">宏奕工作室招新啦!3</a></li> -->
+							</ul>
+							<ul id="con2" style="margin-top:-10px;">
+							</ul>
+							<!-- overflow:hidden; -->
+						<!-- </marquee> -->
+					</div>
+				</div>
+				<div class=" col-md-1">
+					<div id="tup" onclick="up()">
+						<span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>	
+					</div>
+					<div id="tdown" onclick="down()">
+						<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+</script>

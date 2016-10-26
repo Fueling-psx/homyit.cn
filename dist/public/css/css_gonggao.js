@@ -1,0 +1,3 @@
+define(function(require, exports, module){
+  module.exports = '<style type="text/css">.bordered{border-bottom:1px solid #ddd;margin:0 -30px 0 0}.bordered .row .laba{position:absolute;top:1px;left:5%;font-size:1.3em}.bordered .row #gdong,.bordered .row .homyi{position:relative;font-family:"微软雅黑"}.bordered .row .homyi{left:20px;font-size:1.1em}.bordered .row #gdong{height:28px;top:1px;left:-30px;overflow:hidden;font-size:1em}.bordered .row #tdown,.bordered .row #tup{position:relative;left:26.67px;cursor:pointer}.bordered .row #gdong ul{text-align:center;list-style:none;margin-left:-33px}.bordered .row #gdong ul li{height:40px}.bordered .row #tup{top:0}.bordered .row #tdown{top:-8px}</style>';
+});

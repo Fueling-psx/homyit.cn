@@ -1,0 +1,1 @@
+define(function(require,exports,module){exports._init=function(){console.log(messageToos/_init)},exports.getMessageByField=function(e,n,i,o){if(0==e.length)o([]);else if(n.length||i.length){var t=new Array;e.forEach(function(e){e[n]==i&&t.push(e)}),o(t)}else o(e)}});

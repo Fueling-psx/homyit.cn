@@ -1,0 +1,1 @@
+define(function(require,exports,module){function n(i,c){if(!c)var c=0;var e=[];return i.forEach(function(o){o.pid==c&&(o.children=n(i,o.id),o.children.length<=3?e.push(o):(o.children.splice(3,15),e.push(o)))}),e}exports.init=function(){console.log(0)},exports.nav=function(i,c){var e=n(i);c(e)}});

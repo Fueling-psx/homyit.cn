@@ -1,0 +1,1 @@
+define(function(require,exports,module){var o=require("url");exports.log=function(){if(window.console&&o.get("?hyDebug"))return arguments.length>1&&(arguments[0]+=" => "),console.log.apply(console,arguments)},exports.error=function(){if(window.console)return console.error.apply(console,arguments)}});
