@@ -1,12 +1,5 @@
-# hy-ria-starter
-宏奕单页应用开发快速上手，主要目的在于帮助理解单页+前端路由+AJAX与后台解耦+模板引擎的开发思路
-
-本项目主要是用来帮助之前只会jQuery+后台MVC的同学，转向学习Angular、React、Vue等的过度学习
-
-推荐基于此项目来完成个人博客的前端实现，从而就可以更好地理解框架的开发思路。万事开头难，为了更便于大家上手，已经完成了博客的一点基础效果，可供大家参考着摸索思路！
-
 # Overview
-- hy-ria-starter是基于SeaJS、jQuery、Bootstrap建立起来的单页应用框架
+- homyit.cn是基于SeaJS、jQuery、Bootstrap建立起来的单页web应用
 - 内置事件机制，分global、module两个级别，可有效解决非全局事件未销毁带来的问题
 - 基于hashchange实现强大而灵活的路由机制，有框架默认的路由规则，亦支持自定义路由规则
 - 支持module和action两级构造方法（_init）和析构方法（_destroy），编码更灵活
@@ -89,10 +82,6 @@
 - CSS格式 [gulp-seajs-css](https://github.com/homkai/gulp-seajs-css)
 - doT模板格式 [gulp-seajs-dot](https://github.com/homkai/gulp-seajs-dot)
 
-# Exop
-- 使用hy-ria-starter练手的个人博客git地址：
-    - https://github.com/2944927590/myblog
-    - https://github.com/sameenzm/sameenblog
 
 # FAQ
 Q: 从/module1/action1&id=123到/module1/action1&id=321会不会重新执行action1方法
